@@ -9,4 +9,11 @@ is_lazy = True
 print(type(name))
 print(type(age))
 print(type(gpa))
-type(type(is_lazy))
+print(type(is_lazy))
+
+gpa = int(gpa)
+print(type(gpa)) 
+
+name = bool(name)
+print(type(name))
+print(name)
