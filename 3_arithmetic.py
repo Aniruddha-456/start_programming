@@ -1,10 +1,10 @@
 import math
 
-a=3.14
+a=3.145697
 b=-4
 c=5
 
-z = round(a)
+z = round(a,3)
 y = abs(b)
 power = pow(4,3)
 maxi = max(10,20,30)
